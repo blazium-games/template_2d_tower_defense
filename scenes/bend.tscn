@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3]
+
+[node name="Follow" type="Node2D"]
+[node name="SheetLens" type="Camera2D" parent="."]
+position = Vector2(200, 150)
+[node name="Field" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, 0, 400, 0, 400, 240, 0, 240)
+color = Color(0.16, 0.18, 0.22, 1)
+[node name="BendLane" type="ColorRect" parent="."]
+offset_left = 40
+offset_top = 80
+offset_right = 104
+offset_bottom = 280
+color = Color(0.25, 0.4, 0.25, 1)
+[node name="BendArm" type="ColorRect" parent="."]
+offset_left = 40
+offset_top = 80
+offset_right = 320
+offset_bottom = 128
+color = Color(0.25, 0.45, 0.28, 1)

@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/presenter.gd" id="1_opener"]
+
+[node name="Opener" type="Node2D"]
+script = ExtResource("1_opener")
+[node name="SheetLens" type="Camera2D" parent="."]
+position = Vector2(280, 200)
+[node name="Lane" type="ColorRect" parent="."]
+offset_left = 40
+offset_top = 180
+offset_right = 520
+offset_bottom = 244
+color = Color(0.25, 0.4, 0.25, 1)
+[node name="DefenderSlot" type="ColorRect" parent="."]
+offset_left = 80
+offset_top = 188
+offset_right = 128
+offset_bottom = 236
+color = Color(0.2, 0.25, 0.2, 1)
+[node name="LaneEnd" type="ColorRect" parent="."]
+offset_left = 480
+offset_top = 188
+offset_right = 512
+offset_bottom = 236
+color = Color(0.45, 0.3, 0.2, 1)
